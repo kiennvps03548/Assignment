@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgsp"    
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/tvTenSp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+            <TextView
+                
+                android:id="@+id/tvGiaSp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"            
+                android:text="Gia: 50000"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XUẤT XỨ: USA"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="THÔNG TIN: Sản phẩm không có tác dụng thay thế thuốc chữa bệnh ! Cần đọc kĩ hướng dẫn trước khi sử dụng."
+        android:textSize="20dip"
+        android:textStyle="bold" />
+    </LinearLayout>
+ <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+         >
+    
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đặt Hàng" />
+</RelativeLayout>	
+</LinearLayout>

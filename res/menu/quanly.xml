@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project.Tabnhanvien" >
+
+    <item
+        android:id="@+id/action_qltk"
+        android:showAsAction="never"
+        android:title="Quản Lý Tài Khoản"/>
+ 	<item
+        android:id="@+id/action_dx"
+        android:showAsAction="never"
+        android:title="Đăng Xuất"/>
+</menu>

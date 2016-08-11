@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TPCN</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_qlsanpham">QLSanpham</string>
+    <string name="title_activity_nhanvien">Nhanvien</string>
+    <string name="title_activity_dang_ky">DangKyActivity</string>
+    <string name="title_activity_trangchu">Trangchu</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_tabmenu">Tabmenu</string>
+    <string name="title_activity_tabgiohang">Tabgiohang</string>
+    <string name="title_activity_tabnhanvien">Tabnhanvien</string>
+    <string name="title_activity_tablienhe">Tablienhe</string>
+    <string name="title_activity_tab_hoa_don">TabHoaDon</string>
+    <string name="title_activity_qltk">QLTKActivity</string>
+    <string name="title_activity_doi_mk">DoiMKActivity</string>
+
+</resources>

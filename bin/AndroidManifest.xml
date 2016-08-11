@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login_ps03528"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+    <permission android:name="com.example.googlemap.permission.MAPS_RECEIVE"
+        		android:protectionLevel="signature" />
+    
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	<uses-permission android:name="com.example.googlemap.permission.MAPS_RECEIVE"/>
+	
+	<uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+	
+
+
+    <application
+        android:name="com.example.login_ps03528.ThucPhamChucNang"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QLSanpham"
+            android:label="@string/title_activity_qlsanpham" >
+        </activity>
+        <activity
+            android:name=".NhanvienActivity"
+            android:label="@string/title_activity_nhanvien" >
+        </activity>
+        <activity android:name="com.example.dondh.ThongTinKH" >
+        </activity>
+        <activity android:name="com.example.dondh.DonDH" >
+        </activity>
+        <activity
+            android:name=".DangKyActivity"
+            android:label="@string/title_activity_dang_ky" >
+        </activity>
+        <activity
+            android:name=".Trangchu"
+            android:label="@string/title_activity_trangchu" >
+        </activity>
+        <activity
+            android:name="dssp.khachhang.Tabmenu"
+            android:label="@string/title_activity_tabmenu" >
+        </activity>
+        <activity
+            android:name=".Tabgiohang"
+            android:label="@string/title_activity_tabgiohang" >
+        </activity>
+        <activity
+            android:name=".Tabnhanvien"
+            android:label="@string/title_activity_tabnhanvien" >
+        </activity>
+        <activity
+            android:name=".Tablienhe"
+            android:label="@string/title_activity_tablienhe" >
+        </activity>
+        <activity android:name="dssp.pkg.DSSPActivity" >
+        </activity>
+        <activity android:name="dssp.pkg.ThemSPActivity" >
+        </activity>
+        <activity android:name="dssp.pkg.ChiTietSPActivity" >
+        </activity>
+        <activity
+            android:name=".TabHoaDon"
+            android:label="@string/title_activity_tab_hoa_don" >
+        </activity>
+        <activity android:name="dssp.pkg.QuanLy_TabActivity" >
+        </activity>
+        <activity
+            android:name="quanly.taikhoan.nv.QLTKActivity"
+            android:label="@string/title_activity_qltk" >
+        </activity>
+        <activity
+            android:name="quanly.taikhoan.nv.DoiMKActivity"
+            android:label="@string/title_activity_doi_mk" >
+        </activity>
+        <activity android:name="com.example.login_ps03528.DangkyKH"></activity>
+        <activity android:name="com.example.login_ps03528.MapActivity"></activity>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDOfwkh8XoFNLlnNl-Ud_jrathSQgXDayM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project.Trangchu" >
+   
+    <item
+        android:id="@+id/action_nv"
+        android:showAsAction="always"
+        android:icon="@drawable/icnhanvien"
+        android:title="Nhân viên"/>
+
+</menu>
